@@ -148,7 +148,9 @@
   .status-pill {
     display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--room-ink-soft);
     border: 1px solid rgba(244,239,228,0.18); border-radius: 999px; padding: 7px 14px;
+    text-decoration: none; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease;
   }
+  .status-pill:hover { border-color: var(--room-glow-2); color: var(--room-ink, inherit); }
   .status-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--room-glow-2); }
 
   /* ---------- shared product mockup ---------- */
@@ -586,12 +588,12 @@
         <ul class="feat-list">
           <li>화면 네 방향, 어디에든 붙는 가장자리 도킹</li>
           <li>목록·체크리스트, 그리고 일정을 적는 캘린더</li>
-          <li>메모를 따로 떼어 책상 위에 두는 포스트잇</li>
+          <li>메모를 따로 떼어 책상 위에 두는 플로팅</li>
           <li>지운 메모는 7일간 휴지통에 머무릅니다</li>
           <li>잠금과 라이트 · 다크 테마</li>
         </ul>
         <div class="product-actions">
-          <div class="status-pill"><span class="dot"></span>마이크로소프트 스토어 출시 준비 중</div>
+          <a class="status-pill" href="download/Nooki-Setup.exe" download><span class="dot"></span>Windows용 다운로드 · 무료</a>
           <a class="detail-link" href="#" data-view="memo">기능 자세히 보기 →</a>
         </div>
       </div>
@@ -635,7 +637,7 @@
         <span class="eyebrow">NOOKI 메모</span>
         <h1>화면 가장자리에 붙는,<br />가장 작은 메모장</h1>
         <p class="lead">누키 메모는 Nooki가 만든 첫 번째 결과물입니다. 화면 전체가 아니라 가장자리 한 줄만 쓰고, 부르면 나타나고 부르지 않으면 사라집니다.</p>
-        <div class="status-pill"><span class="dot"></span>마이크로소프트 스토어 출시 준비 중</div>
+        <a class="status-pill" href="download/Nooki-Setup.exe" download><span class="dot"></span>Windows용 다운로드 · 무료</a>
       </div>
       <div class="mock-frame">
         <div class="mockup">
@@ -750,7 +752,7 @@
           </div>
           <div class="case-body">
             <h3>참고할 걸 옆에 두고</h3>
-            <p>포스트잇으로 떼어 두면 창을 오갈 필요가 없습니다. 작업하는 내내 그 자리에 남아 있습니다.</p>
+            <p>플로팅으로 떼어 두면 창을 오갈 필요가 없습니다. 작업하는 내내 그 자리에 남아 있습니다.</p>
           </div>
         </div>
 
@@ -813,7 +815,7 @@
         <div class="ease-item">
           <div class="corner-mark"></div>
           <div>
-            <h3>설치 파일 1.5MB</h3>
+            <h3>설치 파일 3MB</h3>
             <p>내려받는 데 몇 초면 충분합니다. PC를 무겁게 만들지 않습니다.</p>
           </div>
         </div>
@@ -928,11 +930,11 @@
 
       <div class="fsec">
         <div class="fsec-grid">
-          <div class="fsec-head"><span class="eyebrow">WIDGETS</span><h2>포스트잇 · 알림 · 잠금</h2></div>
+          <div class="fsec-head"><span class="eyebrow">WIDGETS</span><h2>플로팅 · 알림 · 잠금</h2></div>
           <div class="frows">
             <div class="frow">
               <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M15 5H6a2 2 0 0 0-2 2v9" /></svg></span>
-              <div><div class="name">포스트잇으로 띄우기</div><div class="desc">메모를 독립된 작은 창으로 따로 띄웁니다. 여러 개를 동시에 띄울 수 있고, 크기와 위치가 각각 기억됩니다.</div></div>
+              <div><div class="name">플로팅으로 띄우기</div><div class="desc">메모를 독립된 작은 창으로 따로 띄웁니다. 여러 개를 동시에 띄울 수 있고, 크기와 위치가 각각 기억됩니다.</div></div>
             </div>
             <div class="frow">
               <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6l-1 6 3 3H7l3-3-1-6zM12 13v7" /></svg></span>
@@ -967,7 +969,7 @@
                 <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M15 5H6a2 2 0 0 0-2 2v9" /></svg></span>
                 <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6l-1 6 3 3H7l3-3-1-6zM12 13v7" /></svg></span>
               </span>
-              <div><div class="name">따로 띄우기 · 고정</div><div class="desc">달력 위 버튼으로 포스트잇처럼 따로 띄우고, 고정해 둘 수 있습니다.</div></div>
+              <div><div class="name">따로 띄우기 · 고정</div><div class="desc">달력 위 버튼으로 플로팅처럼 따로 띄우고, 고정해 둘 수 있습니다.</div></div>
             </div>
           </div>
         </div>
