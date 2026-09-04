@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.6",
   "url": "https://tonytina97.github.io/nooki-site/download/Nooki-Setup.exe",
-  "notes": "사진 자르기 추가, 사진 기본 크기 축소, 잠긴 메모 전환 흐름 개선, 여러 오류 수정"
+  "notes": "구매 방식을 웹사이트 결제로 통일, 사진 자르기 Pro 게이트 보완, 여러 오류 수정"
 }
