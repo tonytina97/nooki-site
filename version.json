@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "url": "https://tonytina97.github.io/nooki-site/download/Nooki-Setup.exe",
-  "notes": "구매 방식을 웹사이트 결제로 통일, 사진 자르기 Pro 게이트 보완, 여러 오류 수정"
+  "notes": "업데이트 확인 기능이 실제로는 항상 조용히 실패하던 버그, 알림 버튼이 안 눌리던 버그 수정"
 }
