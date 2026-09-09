@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>다운로드 시작 — Nooki</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --ground: #ece7db; --surface: #ffffff; --ink: #23281d; --ink-soft: #636655; --accent: #46592f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground: #1e231a; --surface: #272d21; --ink: #f2ece0; --ink-soft: #a8ad99; --accent: #a9c07e; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: var(--ground); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    text-align: center; padding: 24px;
+  }
+  .card { max-width: 360px; }
+  .spinner {
+    width: 34px; height: 34px; margin: 0 auto 20px; border-radius: 50%;
+    border: 3px solid rgba(70,89,47,0.18); border-top-color: var(--accent);
+    animation: spin .8s linear infinite;
+  }
+  @media (prefers-color-scheme: dark) { .spinner { border-color: rgba(169,192,126,0.22); border-top-color: var(--accent); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  h1 { font-size: 18px; margin: 0 0 8px; }
+  p { font-size: 13.5px; color: var(--ink-soft); margin: 0 0 20px; line-height: 1.5; }
+  a.manual {
+    display: inline-block; background: var(--surface); color: var(--ink); text-decoration: none;
+    font-size: 13px; font-weight: 600; padding: 10px 20px; border-radius: 999px;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="spinner" aria-hidden="true"></div>
+    <h1>다운로드가 곧 시작됩니다</h1>
+    <p>자동으로 안 받아지면 아래 버튼을 눌러주세요.</p>
+    <a class="manual" href="Nooki-Setup.exe">직접 다운로드</a>
+  </div>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "PUT_YOUR_TOKEN_HERE"}'></script>
+  <script>
+    setTimeout(function () { window.location.href = 'Nooki-Setup.exe'; }, 400);
+  </script>
+</body>
+</html>
