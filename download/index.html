@@ -38,14 +38,20 @@
 </head>
 <body>
   <div class="card">
-    <div class="spinner" aria-hidden="true"></div>
-    <h1>다운로드가 곧 시작됩니다</h1>
-    <p>자동으로 안 받아지면 아래 버튼을 눌러주세요.</p>
+    <div class="spinner" id="spinner" aria-hidden="true"></div>
+    <h1 id="msg">다운로드가 곧 시작됩니다</h1>
+    <p id="sub">자동으로 안 받아지면 아래 버튼을 눌러주세요.</p>
     <a class="manual" href="Nooki-Setup.exe">직접 다운로드</a>
   </div>
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "913c32726214432d9b38b9e84416fe3b"}'></script>
   <script>
-    setTimeout(function () { window.location.href = 'Nooki-Setup.exe'; }, 400);
+    setTimeout(function () {
+      window.location.href = 'Nooki-Setup.exe';
+      document.getElementById('spinner').style.display = 'none';
+      document.getElementById('msg').textContent = '다운로드가 시작됐어요!';
+      document.getElementById('sub').textContent = '이 창은 곧 자동으로 닫혀요. 안 닫히면 직접 닫으셔도 됩니다.';
+      setTimeout(function () { window.close(); }, 700);
+    }, 400);
   </script>
 </body>
 </html>
