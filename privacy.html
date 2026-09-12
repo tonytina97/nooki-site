@@ -46,7 +46,8 @@
   }
   .card p { margin: 0; }
   a { color: var(--sage-deep); }
-  .back { display: inline-block; margin-top: 40px; font-size: 13px; color: var(--ink-soft); text-decoration: none; }
+  .foot-links { display: flex; gap: 18px; margin-top: 40px; flex-wrap: wrap; }
+  .back { display: inline-block; font-size: 13px; color: var(--ink-soft); text-decoration: none; }
   .back:hover { color: var(--sage-deep); }
 </style>
 </head>
@@ -84,7 +85,10 @@
     <p>이 방침에 대해 궁금한 점이 있으시면 아래 이메일로 문의해주세요.</p>
     <p><a href="mailto:nooki.support@gmail.com">nooki.support@gmail.com</a></p>
 
-    <a class="back" href="index.html">← Nooki 소개로 돌아가기</a>
+    <div class="foot-links">
+      <a class="back" href="index.html">← Nooki 소개로 돌아가기</a>
+      <a class="back" href="support.html">도움말 · 문의</a>
+    </div>
   </div>
 </body>
 </html>
