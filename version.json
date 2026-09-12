@@ -1,5 +1,6 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-  "notes": "라이선스 키를 넣으면 앱을 다시 켜지 않아도 바로 Pro 가 켜집니다. 잠금 화면과 알림이 메모에 맞춰 뜨도록 자리를 고쳤고, 설정에서 지금 버전을 확인할 수 있습니다."
+  "notes": "새 버전이 있으면 앱 안에서 바로 받아 설치할 수 있습니다. 브라우저를 열거나 설치 마법사를 거치지 않아도 됩니다.",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnNFYXB0OGRuU29hQStFNjJ3NHJPeEJsQXhOZkxLeDV5SURlNFhsTXdGVEhqckdjWUhzMGxJT0RTcTBMUHJwOVFOR1B0UnlDUGJMbExIOWJKSlZKemdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTk0ODU1CWZpbGU6Tm9va2lfMS4wLjExX3g2NC1zZXR1cC5leGUKcFFaUXE3Q2MrYnZpMGoyMGcxcXBlTHMwZzRldWwzZlRTMUhPSksrMXBvUkhRTHQwMUsvS3czaTNKcFQ1aXl4MXdGMlNrSDQ2KzQyZlJRUGN1djJGQ3c9PQo="
 }
