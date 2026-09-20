@@ -1,6 +1,6 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-  "notes": "새 버전이 있으면 앱 안에서 바로 받아 설치할 수 있습니다. 브라우저를 열거나 설치 마법사를 거치지 않아도 됩니다.",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnNFYXB0OGRuU29hQStFNjJ3NHJPeEJsQXhOZkxLeDV5SURlNFhsTXdGVEhqckdjWUhzMGxJT0RTcTBMUHJwOVFOR1B0UnlDUGJMbExIOWJKSlZKemdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTk0ODU1CWZpbGU6Tm9va2lfMS4wLjExX3g2NC1zZXR1cC5leGUKcFFaUXE3Q2MrYnZpMGoyMGcxcXBlTHMwZzRldWwzZlRTMUhPSksrMXBvUkhRTHQwMUsvS3czaTNKcFQ1aXl4MXdGMlNrSDQ2KzQyZlJRUGN1djJGQ3c9PQo="
+  "notes": "탭을 끌어내면 놓은 자리에 바로 플로팅으로 뜹니다(Pro). 설정에서 메모 글씨체와 인덱스 글씨체를 고를 수 있습니다. 메모를 펼쳐둔 채 Ctrl+F 를 누르면 그 메모 안에서 찾습니다. 그 밖에 창이 붙는 자리와 위치 초기화 등 네 가지를 고쳤습니다.",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmxubnAwY1ZnV3J0SHFLb3BDamVIVG1tTmVlTGNYMXlDNFYwZzNoM0FiS05Nbmx0NEQrejl4UjVkVDFHdjJXY29heDJ4dWV1akZhTUhnQXhIYys2QWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjMzODYzCWZpbGU6Tm9va2lfMS4wLjEyX3g2NC1zZXR1cC5leGUKYlZmc3ptYlRVRFZRT211aVprVldqOXpqV3pReW1idmNXQStyVitjd2t4OG0rWmRZSUx0R0NHRmhDSlZJbldpbUt4MEVhV25LZWlYY3l0bTA5bkNOQWc9PQo="
 }
