@@ -1,6 +1,6 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-  "notes": "탭을 끌어내면 놓은 자리에 바로 플로팅으로 뜹니다(Pro). 설정에서 메모 글씨체와 인덱스 글씨체를 고를 수 있습니다. 메모를 펼쳐둔 채 Ctrl+F 를 누르면 그 메모 안에서 찾습니다. 그 밖에 창이 붙는 자리와 위치 초기화 등 네 가지를 고쳤습니다.",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmxubnAwY1ZnV3J0SHFLb3BDamVIVG1tTmVlTGNYMXlDNFYwZzNoM0FiS05Nbmx0NEQrejl4UjVkVDFHdjJXY29heDJ4dWV1akZhTUhnQXhIYys2QWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjMzODYzCWZpbGU6Tm9va2lfMS4wLjEyX3g2NC1zZXR1cC5leGUKYlZmc3ptYlRVRFZRT211aVprVldqOXpqV3pReW1idmNXQStyVitjd2t4OG0rWmRZSUx0R0NHRmhDSlZJbldpbUt4MEVhV25LZWlYY3l0bTA5bkNOQWc9PQo="
+  "notes": "창을 옮길 때 엉뚱한 모니터나 자리에 붙던 문제를 고쳤습니다. 가장자리에 붙이기가 수월해졌고 두 모니터 사이에도 붙일 수 있습니다. 켤 때 화면 중간에 떠서 클릭이 안 되던 것, 달력과 메모를 빠르게 번갈아 누르면 엉뚱한 자리로 열리던 것, 잠긴 메모에서 비밀번호를 취소해도 안내가 남던 것도 고쳤습니다.",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0Rmt5YXVCRWhGQjl5c3loRjNhbjJ1Qm4vMU5MMnp1ajJFVld3VWMvS21mdm9CVFhDSi9Ra2JXQmpJVWJ2RDN4TnJoSFhPNWFKTFVoMWt0RFdqVXdndlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTczMDM0CWZpbGU6Tm9va2lfMS4wLjEzX3g2NC1zZXR1cC5leGUKWURGQ2hEZytJSDFzZm1ZQVdkVmhXakpoNWdsdndlWTVwNnBHd0RNNmdtME5SL0FWaHpPc2ZXRHQ0dDh6aHlZNVF6aEVyYWJJRVVXb3ZETG94NWhLQVE9PQo="
 }
