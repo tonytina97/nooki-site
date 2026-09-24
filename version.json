@@ -1,6 +1,6 @@
 {
-  "version": "1.0.13",
+  "version": "1.1.0",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-  "notes": "창을 옮길 때 엉뚱한 모니터나 자리에 붙던 문제를 고쳤습니다. 가장자리에 붙이기가 수월해졌고 두 모니터 사이에도 붙일 수 있습니다. 켤 때 화면 중간에 떠서 클릭이 안 되던 것, 달력과 메모를 빠르게 번갈아 누르면 엉뚱한 자리로 열리던 것, 잠긴 메모에서 비밀번호를 취소해도 안내가 남던 것도 고쳤습니다.",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0Rmt5YXVCRWhGQjl5c3loRjNhbjJ1Qm4vMU5MMnp1ajJFVld3VWMvS21mdm9CVFhDSi9Ra2JXQmpJVWJ2RDN4TnJoSFhPNWFKTFVoMWt0RFdqVXdndlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTczMDM0CWZpbGU6Tm9va2lfMS4wLjEzX3g2NC1zZXR1cC5leGUKWURGQ2hEZytJSDFzZm1ZQVdkVmhXakpoNWdsdndlWTVwNnBHd0RNNmdtME5SL0FWaHpPc2ZXRHQ0dDh6aHlZNVF6aEVyYWJJRVVXb3ZETG94NWhLQVE9PQo="
+  "notes": "메모마다 투명도를 따로 기억하고, 따로 띄운 메모에서도 투명도를 조절하고 사진을 붙일 수 있습니다. 달력 단추를 끌어다 놓으면 그 자리에 달력이 뜨고, 검색할 때 띄어쓰기를 신경 쓰지 않아도 됩니다. 설정에서 펼칠 때의 움직임을 끌 수 있고, 업데이트 뒤 처음 켤 때 무엇이 바뀌었는지 한 번 보여줍니다.",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmtvSFEzR0wwVWlEMUR6TmY4M0oxQzN5RUEyeGJ5Um91c3lNVXUwVUxnSm9hT3RIb0lBcXRtZ21xVFNLd2syYW4xY2ttbUYzbklYZXVmaGhuNms3VXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjU4NDM5CWZpbGU6Tm9va2lfMS4xLjBfeDY0LXNldHVwLmV4ZQo1MDZ2M2JVUlRuT01qbDI1VnM0YTBVWGJwU2RUNjVTVXZVbUowZVVlQmlIRVpvWmNXalpndFB3UjFnYzZ3RVBPWnpaNXp6VGx1cU9CQS9maW1hTzhBdz09Cg=="
 }
