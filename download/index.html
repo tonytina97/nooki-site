@@ -34,6 +34,8 @@
     font-size: 13px; font-weight: 600; padding: 10px 20px; border-radius: 999px;
     border: 1px solid rgba(0,0,0,0.1);
   }
+  .other { display: block; margin-top: 14px; font-size: 12px; color: var(--ink-soft); }
+  .other a { color: inherit; }
 </style>
 </head>
 <body>
@@ -41,16 +43,27 @@
     <div class="spinner" id="spinner" aria-hidden="true"></div>
     <h1 id="msg">다운로드가 곧 시작됩니다</h1>
     <p id="sub">자동으로 안 받아지면 아래 버튼을 눌러주세요.</p>
-    <a class="manual" href="Nooki-Setup.exe">직접 다운로드</a>
+    <a class="manual" id="manual" href="Nooki-Setup.exe">직접 다운로드</a>
+    <span class="other" id="other"><a href="Nooki-mac.dmg">Mac(애플 실리콘 M1 이상)용 받기</a></span>
   </div>
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "913c32726214432d9b38b9e84416fe3b"}'></script>
   <script>
+    // 맥이면 dmg, 아니면 exe. 아이패드 사파리도 「Macintosh」라고 자기소개를 해서 터치 여부로 거른다.
+    // 인텔 맥은 브라우저에서 가려낼 수 없어(둘 다 「Intel Mac」으로 찍힌다) 안내 문구로만 알린다.
+    var isMac = /Macintosh|Mac OS X/.test(navigator.userAgent) && !(navigator.maxTouchPoints > 1);
+    var file = isMac ? 'Nooki-mac.dmg' : 'Nooki-Setup.exe';
+    document.getElementById('manual').href = file;
+    document.getElementById('other').innerHTML = isMac
+      ? 'Mac 은 애플 실리콘(M1 이상) 전용이에요. <a href="Nooki-Setup.exe">Windows 용 받기</a>'
+      : '<a href="Nooki-mac.dmg">Mac(애플 실리콘 M1 이상)용 받기</a>';
     setTimeout(function () {
-      window.location.href = 'Nooki-Setup.exe';
+      window.location.href = file;
       document.getElementById('spinner').style.display = 'none';
       document.getElementById('msg').textContent = '다운로드가 시작됐어요!';
       document.getElementById('sub').textContent = '이 창은 곧 자동으로 닫혀요. 안 닫히면 직접 닫으셔도 됩니다.';
-      setTimeout(function () { window.close(); }, 700);
+      // 맥은 창을 남겨둔다 — 「M1 이상 전용」 안내를 인텔 맥 사용자가 읽어야 한다
+      if (!isMac) setTimeout(function () { window.close(); }, 700);
+      else document.getElementById('sub').textContent = '받은 파일을 열고 Nooki 를 응용 프로그램 폴더로 끌어다 놓으세요.';
     }, 400);
   </script>
 </body>
