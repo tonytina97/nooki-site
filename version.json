@@ -2,5 +2,15 @@
   "version": "1.1.0",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
   "notes": "메모마다 투명도를 따로 기억하고, 따로 띄운 메모에서도 투명도를 조절하고 사진을 붙일 수 있습니다. 달력 단추를 끌어다 놓으면 그 자리에 달력이 뜨고, 검색할 때 띄어쓰기를 신경 쓰지 않아도 됩니다. 설정에서 펼칠 때의 움직임을 끌 수 있고, 업데이트 뒤 처음 켤 때 무엇이 바뀌었는지 한 번 보여줍니다.",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmtvSFEzR0wwVWlEMUR6TmY4M0oxQzN5RUEyeGJ5Um91c3lNVXUwVUxnSm9hT3RIb0lBcXRtZ21xVFNLd2syYW4xY2ttbUYzbklYZXVmaGhuNms3VXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjU4NDM5CWZpbGU6Tm9va2lfMS4xLjBfeDY0LXNldHVwLmV4ZQo1MDZ2M2JVUlRuT01qbDI1VnM0YTBVWGJwU2RUNjVTVXZVbUowZVVlQmlIRVpvWmNXalpndFB3UjFnYzZ3RVBPWnpaNXp6VGx1cU9CQS9maW1hTzhBdz09Cg=="
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmtvSFEzR0wwVWlEMUR6TmY4M0oxQzN5RUEyeGJ5Um91c3lNVXUwVUxnSm9hT3RIb0lBcXRtZ21xVFNLd2syYW4xY2ttbUYzbklYZXVmaGhuNms3VXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjU4NDM5CWZpbGU6Tm9va2lfMS4xLjBfeDY0LXNldHVwLmV4ZQo1MDZ2M2JVUlRuT01qbDI1VnM0YTBVWGJwU2RUNjVTVXZVbUowZVVlQmlIRVpvWmNXalpndFB3UjFnYzZ3RVBPWnpaNXp6VGx1cU9CQS9maW1hTzhBdz09Cg==",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmtvSFEzR0wwVWlEMUR6TmY4M0oxQzN5RUEyeGJ5Um91c3lNVXUwVUxnSm9hT3RIb0lBcXRtZ21xVFNLd2syYW4xY2ttbUYzbklYZXVmaGhuNms3VXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjU4NDM5CWZpbGU6Tm9va2lfMS4xLjBfeDY0LXNldHVwLmV4ZQo1MDZ2M2JVUlRuT01qbDI1VnM0YTBVWGJwU2RUNjVTVXZVbUowZVVlQmlIRVpvWmNXalpndFB3UjFnYzZ3RVBPWnpaNXp6VGx1cU9CQS9maW1hTzhBdz09Cg=="
+    },
+    "darwin-aarch64": {
+      "url": "https://dl.nooki.ink/download/Nooki-mac.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmkyRk9FRzJNQlFQd1dpYVJoNlk2aFNVNFl1NjdRY01Ha3FZeHdwZjdHSDE3NXd4dENrK0w5cmg3VXNmRHRyUkluZzVETnloTFM0TGpWVmhNRXRLMUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDA1NDc5CWZpbGU6Tm9va2kuYXBwLnRhci5negpCNE5lOU16WkxRbko0MHk2dE1jVWpTSHZKT3V2S2krU010S3dSclpKaWlSU09oVHZCQytkME1xN0NpWnF1ZkJ2YmdDbC9QVVkvRE9KR2h6eVVTdkVDQT09Cg=="
+    }
+  }
 }
