@@ -48,14 +48,26 @@
   </div>
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "913c32726214432d9b38b9e84416fe3b"}'></script>
   <script>
-    // 맥이면 dmg, 아니면 exe. 아이패드 사파리도 「Macintosh」라고 자기소개를 해서 터치 여부로 거른다.
+    // 어느 파일을 줄지 — nooki.ink 의 버튼이 ?os=win / ?os=mac 으로 정해준다(2026-09-27 버튼을 둘로 나눔).
+    // 파라미터 없이 들어오면(예전 링크·직접 입력) 기기를 보고 고른다.
     // 인텔 맥은 브라우저에서 가려낼 수 없어(둘 다 「Intel Mac」으로 찍힌다) 안내 문구로만 알린다.
-    var isMac = /Macintosh|Mac OS X/.test(navigator.userAgent) && !(navigator.maxTouchPoints > 1);
+    var ua = navigator.userAgent;
+    // 폰·태블릿 — 누키는 PC 프로그램이라 받지 않고 안내만. 아이패드 사파리는 「Macintosh」라고 자기소개를 해서 터치로 거른다.
+    var isMobile = /iPhone|iPad|iPod|Android/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    var q = (location.search.match(/[?&]os=(win|mac)/) || [])[1];
+    var isMac = q ? q === 'mac' : /Macintosh|Mac OS X/.test(ua);
     var file = isMac ? 'Nooki-mac.dmg' : 'Nooki-Setup.exe';
     document.getElementById('manual').href = file;
     document.getElementById('other').innerHTML = isMac
       ? 'Mac 은 애플 실리콘(M1 이상) 전용이에요. <a href="Nooki-Setup.exe">Windows 용 받기</a>'
       : '<a href="Nooki-mac.dmg">Mac(애플 실리콘 M1 이상)용 받기</a>';
+    if (isMobile) {
+      document.getElementById('spinner').style.display = 'none';
+      document.getElementById('msg').textContent = '누키는 PC 프로그램이에요';
+      document.getElementById('sub').textContent = '컴퓨터에서 nooki.ink 를 열어 받아주세요. Windows 와 Mac(M1 이상)을 지원해요.';
+      document.getElementById('manual').style.display = 'none';
+      document.getElementById('other').style.display = 'none';
+    } else
     setTimeout(function () {
       window.location.href = file;
       document.getElementById('spinner').style.display = 'none';
