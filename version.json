@@ -1,16 +1,16 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.0",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-  "notes": "회사 컴퓨터에서 라이선스 키가 확인되지 않던 경우를 줄였고, 그래도 막히면 무엇 때문인지 알려 드립니다. 탭과 펼친 메모의 투명도를 따로 정하고(탭은 설정의 탭 투명도, 무료), 탭을 끌다 플로팅 미리보기가 떠도 탭 띠로 돌아오면 취소됩니다. 무료 달력 단추를 누르면 메모가 커지던 것, 메모장으로 저장한 백업을 못 읽던 것, 유료 안내 줄바꿈, 잠긴 메모를 지운 뒤 남던 🔒 말풍선을 고쳤습니다.",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmhsY1JsQ1FkTC80eXY4QTlYdVVxUUE5Y0Y5a3NzREFHSitMY3BQcDY0aTE3aTliL1F4dFNVNks0Y0krU2NFR2FzeDU3SjdMOTRnclkxVnpPa2pWdXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjE0Mzg3CWZpbGU6Tm9va2lfMS4xLjFfeDY0LXNldHVwLmV4ZQpBSk4zcXA2cHRrUWJhaEM0ZHNoTWJDU08yN2U0RzVhUHM5dnJqWDJDQUhnYmVVTVV4K1dqeWJpV2JYOXUyQ1R0VFo0UjBrbGl2SlV5RDdaSXkrSzVCUT09Cg==",
+  "notes": "메모마다 투명도를 따로 기억하고, 따로 띄운 메모에서도 투명도를 조절하고 사진을 붙일 수 있습니다. 달력 단추를 끌어다 놓으면 그 자리에 달력이 뜨고, 검색할 때 띄어쓰기를 신경 쓰지 않아도 됩니다. 설정에서 펼칠 때의 움직임을 끌 수 있고, 업데이트 뒤 처음 켤 때 무엇이 바뀌었는지 한 번 보여줍니다.",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmtvSFEzR0wwVWlEMUR6TmY4M0oxQzN5RUEyeGJ5Um91c3lNVXUwVUxnSm9hT3RIb0lBcXRtZ21xVFNLd2syYW4xY2ttbUYzbklYZXVmaGhuNms3VXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjU4NDM5CWZpbGU6Tm9va2lfMS4xLjBfeDY0LXNldHVwLmV4ZQo1MDZ2M2JVUlRuT01qbDI1VnM0YTBVWGJwU2RUNjVTVXZVbUowZVVlQmlIRVpvWmNXalpndFB3UjFnYzZ3RVBPWnpaNXp6VGx1cU9CQS9maW1hTzhBdz09Cg==",
   "platforms": {
     "windows-x86_64": {
       "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmhsY1JsQ1FkTC80eXY4QTlYdVVxUUE5Y0Y5a3NzREFHSitMY3BQcDY0aTE3aTliL1F4dFNVNks0Y0krU2NFR2FzeDU3SjdMOTRnclkxVnpPa2pWdXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjE0Mzg3CWZpbGU6Tm9va2lfMS4xLjFfeDY0LXNldHVwLmV4ZQpBSk4zcXA2cHRrUWJhaEM0ZHNoTWJDU08yN2U0RzVhUHM5dnJqWDJDQUhnYmVVTVV4K1dqeWJpV2JYOXUyQ1R0VFo0UjBrbGl2SlV5RDdaSXkrSzVCUT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmtvSFEzR0wwVWlEMUR6TmY4M0oxQzN5RUEyeGJ5Um91c3lNVXUwVUxnSm9hT3RIb0lBcXRtZ21xVFNLd2syYW4xY2ttbUYzbklYZXVmaGhuNms3VXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjU4NDM5CWZpbGU6Tm9va2lfMS4xLjBfeDY0LXNldHVwLmV4ZQo1MDZ2M2JVUlRuT01qbDI1VnM0YTBVWGJwU2RUNjVTVXZVbUowZVVlQmlIRVpvWmNXalpndFB3UjFnYzZ3RVBPWnpaNXp6VGx1cU9CQS9maW1hTzhBdz09Cg=="
     },
     "darwin-aarch64": {
       "url": "https://dl.nooki.ink/download/Nooki-mac.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0Rmg2dUhmRkVJcXpRdW9tWFB2MXAvUXJ3bzUyNENQeVZ3TFY2SzN0M1J0M1RabHFjQ2FXTXFIempyOFdoU296eWVOa2YyV1JNV3Zwd2xJUHBodEJVQkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjE0MjIxCWZpbGU6Tm9va2kuYXBwLnRhci5negozNk5WU2dEdHhTLzBhR2V1TGRTTkFBbEhIOTBDVHFISmxRYWJiWEx2SnBjUHdQTTRLcUIyeFpZSGpTanlZbjF5WXRESTdFZ1AwNGQ2MUVUQVQ5TTZDQT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmkyRk9FRzJNQlFQd1dpYVJoNlk2aFNVNFl1NjdRY01Ha3FZeHdwZjdHSDE3NXd4dENrK0w5cmg3VXNmRHRyUkluZzVETnloTFM0TGpWVmhNRXRLMUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDA1NDc5CWZpbGU6Tm9va2kuYXBwLnRhci5negpCNE5lOU16WkxRbko0MHk2dE1jVWpTSHZKT3V2S2krU010S3dSclpKaWlSU09oVHZCQytkME1xN0NpWnF1ZkJ2YmdDbC9QVVkvRE9KR2h6eVVTdkVDQT09Cg=="
     }
   }
 }
