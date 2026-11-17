@@ -1,16 +1,16 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-  "notes": "모습이 새로 바뀌었고, 예전 모습은 설정 창 모양에서 클래식으로 돌릴 수 있습니다. 오늘 탭이 생겼고, 메모에 날짜를 붙이면 달력과 오늘 탭에 뜹니다. 달력 일정에 시간과 반복, 알림을 넣고, ‘내일 3시 통화’처럼 적으면 날짜와 시간이 들어갑니다. 오늘과 달력을 따로 띄워 둘 수 있고, 찾기 화면과 설정 창도 새로 만들었습니다. 결제 서버에 연결되지 않는 회사 PC에서는 휴대폰으로 등록 코드를 받아 Pro를 켭니다. 보이고 숨기는 단축키(Alt+Space)는 처음엔 꺼져 있으니, 쓰던 분은 설정 창 일반에서 다시 정해 주세요.",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnVCckZDZUdSQWhoVUpDd0Zta3l1UWNueVN2RllTSFBMbWs4Zi95WlhRekZZSTkyTXQ1Q3VMQVBncFlVTnpxRHZiYm44UGhuWVRoUTlFMXpOVytXTlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzcyNTk5CWZpbGU6Tm9va2lfMS4yLjBfeDY0LXNldHVwLmV4ZQpTQkFLdUxHRTVObXZqeTIyLzlIc2VwWFJtY2hGVWNaWmp5dnpaLy9UaldVcnBNN3VsRHpUemNEa0IrY3FTdThOcnBqd29kcC9RcitIK2ZvRDRzTUJDQT09Cg==",
+  "notes": "사용 안내가 생겼습니다. 새 판을 켜면 탭 맨 앞에 시작하기 메모가 생기고, 적힌 것을 해 보면 저절로 체크됩니다. 글자를 고른 뒤 막대에서 글씨체를 누르면 바로 옆에 짧은 목록이 열리고, 달력에 ‘내일3시 회의’처럼 붙여 써도 날짜와 시간을 알아듣습니다. 탭 띠가 가끔 다른 창 밑으로 묻히던 것과 제목 옆에 꺼내 둔 단추가 일부 숨던 것도 고쳤습니다.",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0Rm1oVGxJYnpzeEp6UlQ1UGdFMlExWllxdmJvM3QrT2o3U1RBK0ZRMXVMVFh3K3ZnM2pmbDJFMG5HRjJVM0FsdERaNG5BNjUxbVlONE9MUkJ6Y2UxVHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Nzk0NTYxCWZpbGU6Tm9va2lfMS4yLjFfeDY0LXNldHVwLmV4ZQpwVzFlUWR4Vk55clQzL21maWhZQmNzYXBHaCt4d2RaMW01TE1HSXY2dzZGNHkrYUd6dTRwbWhKeVAvRGdNUXlyS1FoTTJrT2VjeE94Wm0zMTE4WTZCQT09Cg==",
   "platforms": {
     "windows-x86_64": {
       "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnVCckZDZUdSQWhoVUpDd0Zta3l1UWNueVN2RllTSFBMbWs4Zi95WlhRekZZSTkyTXQ1Q3VMQVBncFlVTnpxRHZiYm44UGhuWVRoUTlFMXpOVytXTlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzcyNTk5CWZpbGU6Tm9va2lfMS4yLjBfeDY0LXNldHVwLmV4ZQpTQkFLdUxHRTVObXZqeTIyLzlIc2VwWFJtY2hGVWNaWmp5dnpaLy9UaldVcnBNN3VsRHpUemNEa0IrY3FTdThOcnBqd29kcC9RcitIK2ZvRDRzTUJDQT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0Rm1oVGxJYnpzeEp6UlQ1UGdFMlExWllxdmJvM3QrT2o3U1RBK0ZRMXVMVFh3K3ZnM2pmbDJFMG5HRjJVM0FsdERaNG5BNjUxbVlONE9MUkJ6Y2UxVHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Nzk0NTYxCWZpbGU6Tm9va2lfMS4yLjFfeDY0LXNldHVwLmV4ZQpwVzFlUWR4Vk55clQzL21maWhZQmNzYXBHaCt4d2RaMW01TE1HSXY2dzZGNHkrYUd6dTRwbWhKeVAvRGdNUXlyS1FoTTJrT2VjeE94Wm0zMTE4WTZCQT09Cg=="
     },
     "darwin-aarch64": {
       "url": "https://dl.nooki.ink/download/Nooki-mac.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnNJaXNpNlpXQ01VVXovdWthQ3ZiWkNEV0NSaWY3ZzlLSE9KTEhlcDNjWnMydDBzajIrT2FmcTF5akxVT0k4SHUxWldndEVETmhlZllqOXMrOUdyY3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzczMTMzCWZpbGU6Tm9va2kuYXBwLnRhci5negp3akFLUWRuUzNpbDA5V252aE55anNyNUhBQXh4ZEVDTXlyTE9ONWZyS01taktIeHV4ZHFsUERqSDdrSmtWRm9xWmFQRVVmMngxcmxpRTZGZVZ4N0NEZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnJTclJtbGh0ZDU4VjdGemhWZlRhM2NWOE8xMk1xSnJ6TEgrc21LMFFVdDgrWitlZlJIaGtLdElOV0t2azd4K01vM21DUnZ2N0NadVVKSDYzMzhTSGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODkxODA5CWZpbGU6Tm9va2kuYXBwLnRhci5negovREQxV0lNZXdodXdnaVJYa24zYXJzbWExK05uR2FpVDlEUEd2TE9BbEN2bHpQUDAwbTFMK1NQRTZnRjdCQ1F4cGNBdUl1dG5LQWNVZjgvY3FhRjVEUT09Cg=="
     }
   }
 }
