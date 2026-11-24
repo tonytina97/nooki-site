@@ -1,16 +1,12 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-  "notes": "형광펜이 생겼습니다. 사진을 원하는 각도로 돌리고(Pro), 메모 색 묶음도 여섯 가지 중에 고를 수 있습니다. 윈도우에서는 바탕화면에 달력 위젯을 깔아 둘 수 있습니다(Pro). 새 판을 켜면 시작하기 메모 맨 위에 새 기능 줄이 생겨서 하나씩 따라 해 볼 수 있습니다. 저장하는 순간 전원이 꺼져도 메모 파일이 비지 않게 저장 방식도 바꿨습니다.",
-  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmlndXJpbHFnbDZTZmZpd2NWTjYrZVFWUmNqTVlpRjdhR25oM3Q4dFhYcFk4S1dTZisvb05NVFRMU1laUGZJbkM0S2pMZTFXNHpHbkkyM2hUYWg3YkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY4MDY1CWZpbGU6Tm9va2lfMS4zLjBfeDY0LXNldHVwLmV4ZQptZ1lMQm5MZ2xUQ0o1c242MWlHQ3B5SEwrb0pNb294NVd2K2RpY055NVZTVFJhRjYxMXBuZEJWbGlTVjZNUlBEaG5nSGVpenRaMjNMeGQ0N2hhUGdBdz09Cg==",
+  "notes": "절전에서 깨어나면 달력 알림이 울리지 않던 것을 고쳤습니다. 늦어진 알림은 깨어나자마자 놓친 일정 알림으로 모아서 알려 줘요. 윈도우 탐색기가 다시 시작하면 바탕화면 위젯이 사라지던 것도 고쳤습니다.",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnVVUVlUSlc4Z1ZOaVFlM2xqZENtajF2NkJkclZqTWRRd1pWdlNqTDg0aVI4SmMyeWxaTjh1dUpWd3UzRnl1dWZwUDlPa0NDMVo2cjk2N0Jza2k3QmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQzNjM2CWZpbGU6Tm9va2lfMS4zLjFfeDY0LXNldHVwLmV4ZQpocHN1alhxTU5RQTRiMWQ4SHFPbmtiVjZkMHlmV0hIdmsxbU9kMVI1clVCWW5hNHc1MWxmcStTTWxwM3Boejd3bGpWRW9ML2p1U3dzWEdKcnBSOWNCUT09Cg==",
   "platforms": {
     "windows-x86_64": {
       "url": "https://dl.nooki.ink/download/Nooki-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmlndXJpbHFnbDZTZmZpd2NWTjYrZVFWUmNqTVlpRjdhR25oM3Q4dFhYcFk4S1dTZisvb05NVFRMU1laUGZJbkM0S2pMZTFXNHpHbkkyM2hUYWg3YkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY4MDY1CWZpbGU6Tm9va2lfMS4zLjBfeDY0LXNldHVwLmV4ZQptZ1lMQm5MZ2xUQ0o1c242MWlHQ3B5SEwrb0pNb294NVd2K2RpY055NVZTVFJhRjYxMXBuZEJWbGlTVjZNUlBEaG5nSGVpenRaMjNMeGQ0N2hhUGdBdz09Cg=="
-    },
-    "darwin-aarch64": {
-      "url": "https://dl.nooki.ink/download/Nooki-mac.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RmdodVlhR00wMVl2UTBDb3lyNGZoa2g2MnBnMzVCOC9TbEhJdVFJNUExcDFUMk44YnBSamxpUWZCR3VsbndYVzJ3SEM1eGtrWVpUQk9IeG5lUHVEMUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzY4MTkxCWZpbGU6Tm9va2kuYXBwLnRhci5nego2ZElLU01oS2Yxd0hhZEoyenFFdmE5UEd6Nk5FbHkxZUV6czB1WWNPSnNlTzVkTFZMVzZscksrSGpQUXJ4ZEFDSGYwZmpsMmN3c3luaDAvWFdidExBZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTbmkvMG1ST1A0RnVVUVlUSlc4Z1ZOaVFlM2xqZENtajF2NkJkclZqTWRRd1pWdlNqTDg0aVI4SmMyeWxaTjh1dUpWd3UzRnl1dWZwUDlPa0NDMVo2cjk2N0Jza2k3QmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQzNjM2CWZpbGU6Tm9va2lfMS4zLjFfeDY0LXNldHVwLmV4ZQpocHN1alhxTU5RQTRiMWQ4SHFPbmtiVjZkMHlmV0hIdmsxbU9kMVI1clVCWW5hNHc1MWxmcStTTWxwM3Boejd3bGpWRW9ML2p1U3dzWEdKcnBSOWNCUT09Cg=="
     }
   }
 }
